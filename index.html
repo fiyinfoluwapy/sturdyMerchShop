@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Sturdy Merch Store</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
   <link rel="stylesheet" href="./src/main.css">
   <link rel="stylesheet" href="./dist/styles.css">
@@ -232,117 +233,72 @@
   <section id="bestSeller"
     class="relative w-full min-h-screen flex items-center justify-center text-center bg-cover bg-center bg-no-repeat bg-black"
     style="background-image: url('./src/img/light-sketch.png');">
-    <div class="max-w-7xl mx-auto px-4 text-center items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+        <!-- Header Image -->
         <div class="flex items-center justify-center mt-12">
             <img src="./src/img/Sturdy.png" alt="Sturdy Essential Items"
-                class="w-[200px] sm:w-[300px] md:w-[400px] lg:w-[500px] xl:w-[600px] h-auto object-contain"
-                data-animate="fade">
+                class="w-[120px] sm:w-[150px] md:w-[200px] lg:w-[250px] h-auto object-contain" data-animate="fade">
         </div>
 
-        <div class="swiper mySwiper">
+        <!-- Swiper Section -->
+        <div class="swiper mySwiper mt-8">
             <div class="swiper-wrapper">
-                <!-- Product Card -->
+                <!-- Product Card 1 -->
                 <div class="swiper-slide flex items-center justify-center">
-                    <a href="/product/1" class="block bg-white rounded-lg shadow-md p-4 w-[90%] sm:w-[80%] md:w-[60%] lg:w-[40%] hover:shadow-lg transition-shadow">
-                        <img src="./src/img/hoodie.png" alt="Product 1" 
-                            class="w-full h-auto object-contain mb-4 max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[250px] xl:max-h-[300px]">
-                        <h3 class="text-lg font-medium text-gray-800">Product 1</h3>
-                        <p class="text-gray-600">$19.99</p>
+                    <a href="/product/1"
+                        class="block bg-white rounded-lg shadow-md p-6 w-full max-w-[280px] hover:shadow-lg transition-shadow">
+                        <img src="./src/img/hoodie.png" alt="Product 1"
+                            class="w-full h-auto object-contain mb-4 max-h-[180px]">
+                        <h3 class="text-lg font-bold text-gray-800">Premium Hoodie</h3>
+                        <p class="text-gray-600">$49.99</p>
                     </a>
                 </div>
-
-                <!-- Product Card -->
+                <!-- Product Card 2 -->
                 <div class="swiper-slide flex items-center justify-center">
-                  <a href="/product/1" class="block bg-white rounded-lg shadow-md p-4 w-[90%] sm:w-[80%] md:w-[60%] lg:w-[40%] hover:shadow-lg transition-shadow">
-                      <img src="./src/img/hoodie.png" alt="Product 1" 
-                          class="w-full h-auto object-contain mb-4 max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[250px] xl:max-h-[300px]">
-                      <h3 class="text-lg font-medium text-gray-800">Product 1</h3>
-                      <p class="text-gray-600">$19.99</p>
-                  </a>
-              </div>
-
-              <!-- Product Card -->
-              <div class="swiper-slide flex items-center justify-center">
-                <a href="/product/1" class="block bg-white rounded-lg shadow-md p-4 w-[90%] sm:w-[80%] md:w-[60%] lg:w-[40%] hover:shadow-lg transition-shadow">
-                    <img src="./src/img/hoodie.png" alt="Product 1" 
-                        class="w-full h-auto object-contain mb-4 max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[250px] xl:max-h-[300px]">
-                    <h3 class="text-lg font-medium text-gray-800">Product 1</h3>
-                    <p class="text-gray-600">$19.99</p>
-                </a>
+                    <a href="/product/2"
+                        class="block bg-white rounded-lg shadow-md p-6 w-full max-w-[280px] hover:shadow-lg transition-shadow">
+                        <img src="./src/img/shirt.png" alt="Product 2"
+                            class="w-full h-auto object-contain mb-4 max-h-[180px]">
+                        <h3 class="text-lg font-bold text-gray-800">Classic T-Shirt</h3>
+                        <p class="text-gray-600">$29.99</p>
+                    </a>
+                </div>
+                <!-- Add More Product Cards -->
             </div>
 
-            <!-- Product Card -->
-            <div class="swiper-slide flex items-center justify-center">
-              <a href="/product/1" class="block bg-white rounded-lg shadow-md p-4 w-[90%] sm:w-[80%] md:w-[60%] lg:w-[40%] hover:shadow-lg transition-shadow">
-                  <img src="./src/img/hoodie.png" alt="Product 1" 
-                      class="w-full h-auto object-contain mb-4 max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[250px] xl:max-h-[300px]">
-                  <h3 class="text-lg font-medium text-gray-800">Product 1</h3>
-                  <p class="text-gray-600">$19.99</p>
-              </a>
-          </div>
-
-          <!-- Product Card -->
-          <div class="swiper-slide flex items-center justify-center">
-            <a href="/product/1" class="block bg-white rounded-lg shadow-md p-4 w-[90%] sm:w-[80%] md:w-[60%] lg:w-[40%] hover:shadow-lg transition-shadow">
-                <img src="./src/img/hoodie.png" alt="Product 1" 
-                    class="w-full h-auto object-contain mb-4 max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[250px] xl:max-h-[300px]">
-                <h3 class="text-lg font-medium text-gray-800">Product 1</h3>
-                <p class="text-gray-600">$19.99</p>
-            </a>
-        </div>
-
-        <!-- Product Card -->
-        <div class="swiper-slide flex items-center justify-center">
-          <a href="/product/1" class="block bg-white rounded-lg shadow-md p-4 w-[90%] sm:w-[80%] md:w-[60%] lg:w-[40%] hover:shadow-lg transition-shadow">
-              <img src="./src/img/hoodie.png" alt="Product 1" 
-                  class="w-full h-auto object-contain mb-4 max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[250px] xl:max-h-[300px]">
-              <h3 class="text-lg font-medium text-gray-800">Product 1</h3>
-              <p class="text-gray-600">$19.99</p>
-          </a>
-      </div>
-                <!-- Repeat for other cards -->
-            </div>
-            <!-- Navigation Buttons -->
+            <!-- Swiper Navigation -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-            <!-- Pagination -->
+            <!-- Swiper Pagination -->
             <div class="swiper-pagination"></div>
         </div>
     </div>
 </section>
 
+
   <script src="./src/main.js"></script>
   <!--swipper javascript-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script>
-  const swiper = new Swiper('.mySwiper', {
-    slidesPerView: 1, // Number of cards visible at once
-    spaceBetween: 20, // Space between cards
-    breakpoints: {
-      640: {
-        slidesPerView: 2, // 2 cards for small screens
-        spaceBetween: 20,
+  <!-- <script>
+    const swiper = new Swiper('.mySwiper', {
+      loop: true,
+      spaceBetween: 20,
+      slidesPerView: 1,
+      breakpoints: {
+        640: { slidesPerView: 2, spaceBetween: 20 },
+        768: { slidesPerView: 3, spaceBetween: 30 },
+        1024: { slidesPerView: 4, spaceBetween: 40 },
       },
-      768: {
-        slidesPerView: 3, // 3 cards for medium screens
-        spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
-      1024: {
-        slidesPerView: 4, // 4 cards for large screens
-        spaceBetween: 40,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
       },
-    },
-    loop: true, // Enable infinite loop
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-</script>
+    });
+  </script> -->
 
 </body>
 
